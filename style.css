@@ -1,0 +1,166 @@
+body {
+    font-family: Roboto, serif;
+    margin: 0;
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 12px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 12px 0;
+}
+
+button {
+    font-size: 20px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.top {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-bottom: 64px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    margin: 0 64px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px 16px;
+    margin: 56px 24px;
+}
+
+.intro-text {
+    width: 30vw;
+}
+
+.image-intro {
+    width: 600px;
+}
+
+.thumbnails-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 64px;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 80px;
+}
+
+.thumbnail-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 6px;
+}
+
+.thumb {
+    max-width: 160px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 64px 154px;
+}
+
+figcaption {
+    padding: 0 64px;
+    margin: 24px;
+}
+
+cite {
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.call-action {
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 84px 224px;
+    padding: 48px 24px;
+}
+
+.action-text {
+    align-items: center;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 6px;
+    border: none;
+    padding: 6px 24px;
+}
+
+.signup-button-bottom {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 6px;
+    border: 1px solid #f9faf8;
+    padding: 6px 24px;
+}
+
+.footer {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
