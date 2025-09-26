@@ -67,3 +67,27 @@ body {
 .hero-content {
   display: flex;
 }
+
+.card-container {
+  display: flex;
+  place-content: center space-evenly;
+}
+
+.card {
+  flex: 1;
+  max-width: 9rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-picture {
+  width: 100px;
+  height: 100px;
+  background-color: #E5E7EB;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
